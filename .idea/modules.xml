@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\kausr\AndroidStudioProjects\TresureHunter\Treasure-Hunter.iml" filepath="C:\Users\kausr\AndroidStudioProjects\TresureHunter\Treasure-Hunter.iml" />
       <module fileurl="file://$PROJECT_DIR$/TresureHunter.iml" filepath="$PROJECT_DIR$/TresureHunter.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

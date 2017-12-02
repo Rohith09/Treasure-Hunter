@@ -19,7 +19,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-annotations:+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:25.0.3'
     implementation 'com.google.android.gms:play-services-maps:9.4.0'
