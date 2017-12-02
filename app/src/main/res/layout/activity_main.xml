@@ -11,8 +11,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="120dp"
-        android:layout_height="150dp"
+        android:layout_width="120dp"        android:layout_height="150dp"
         android:layout_marginTop="40dp"
         app:srcCompat="@drawable/logo1"
         android:layout_alignParentTop="true"
@@ -86,6 +85,8 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:id="@+id/signin"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
         android:textColor="#fff"
         android:textSize="18sp"/>
     <TextView
@@ -106,6 +107,7 @@
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="30dp"
+            android:layout_below="@id/signin"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/twitter" />
 
@@ -114,6 +116,7 @@
             android:layout_width="30dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
+            android:layout_below="@id/signin"
             app:srcCompat="@drawable/instagram" />
 
         <ImageView
@@ -121,6 +124,7 @@
             android:layout_width="30dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
+            android:layout_below="@id/signin"
             app:srcCompat="@drawable/facebook" />
     </LinearLayout>
 

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -18,6 +19,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener,View.OnClickListener {
     SignInButton signin;
     TextView text;
+    String name;
     GoogleApiClient mGoogle;
     private static final String TAG="SignIn Activity";
     private static final int sign=9001;
@@ -64,10 +66,13 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         if(result.isSuccess())
         {
             GoogleSignInAccount acc=result.getSignInAccount();
-            status.setText("Hello, "+acc.getDisplayName());
+            Intent i=new Intent(getApplicationContext(),Profile.class);
+            name=acc.getDisplayName();
+            i.putExtra("name",name);
+            startActivity(i);
         }
         else{
-
+            Toast.makeText(getApplicationContext(),"Error",Toast.LENGTH_LONG).show();
         }
 
     }
@@ -77,6 +82,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
     void navigate(View view)
     {
-
+        Intent i=new Intent(getApplicationContext(),Profile.class);
+        i.putExtra("name",name);
+        startActivity(i);
     }
 }
