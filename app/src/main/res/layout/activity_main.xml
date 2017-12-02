@@ -8,22 +8,14 @@
     android:background="@drawable/gradient"
     tools:context="com.example.kausr.tresurehunter.MainActivity">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/location"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="40dp"
-        android:onClick="loc"
-        android:text="Click me"/>
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="120dp"        android:layout_height="150dp"
-        android:layout_marginTop="40dp"
-        app:srcCompat="@drawable/logo1"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo1" />
 
     <EditText
         android:id="@+id/editText"
@@ -35,7 +27,7 @@
         android:hint="Username"
         android:inputType="textPersonName"
         android:textSize="16dp"
-        android:layout_marginBottom="35dp"
+        android:layout_marginBottom="10dp"
         android:layout_above="@+id/editText2"
         android:layout_centerHorizontal="true" />
 
@@ -48,22 +40,54 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        android:layout_marginBottom="130dp"
+        android:layout_marginBottom="70dp"
         android:layout_alignBottom="@+id/cardView"
         android:layout_alignLeft="@+id/editText"
         android:layout_alignStart="@+id/editText" />
 
     <android.support.v7.widget.CardView
-        android:layout_width="300dp"
+        android:id="@+id/cardView"
+        android:layout_width="250dp"
         android:layout_height="50dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
         app:cardBackgroundColor="@color/colorAccent"
         app:cardCornerRadius="25dp"
-        app:cardElevation="10dp"
-        android:id="@+id/cardView"
-        android:layout_marginBottom="31dp"
-        android:layout_above="@+id/textView2"
-        android:layout_centerHorizontal="true">
+        app:cardElevation="10dp">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="100dp"
+            android:text="Login"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewmap"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp">
+
+        <TextView
+            android:id="@+id/textViewmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="60dp"
+            android:text="Show me On MAP"
+            android:textColor="#fff"
+            android:textSize="18sp" />
     </android.support.v7.widget.CardView>
 
     <TextView
@@ -74,14 +98,17 @@
         android:layout_above="@+id/linearLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="6dp" />
+
     <com.google.android.gms.common.SignInButton
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
         android:id="@+id/signin"
-        android:layout_below="@id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/textView2"
         android:layout_centerHorizontal="true"
         android:textColor="#fff"
-        android:textSize="18sp"/>
+        android:textSize="20sp"
+        />
+
     <TextView
         android:id="@+id/text"
         android:layout_width="wrap_content"
@@ -129,14 +156,6 @@
         android:layout_centerHorizontal="true"
         android:onClick="navigate">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="Login"
-            android:textColor="#fff"
-            android:textSize="18sp" />
     </RelativeLayout>
 
 
