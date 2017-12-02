@@ -155,7 +155,7 @@ public class Location extends FragmentActivity implements OnMapReadyCallback, Go
         }
     }
 
-    
+
 
     @Override
     public void onLocationChanged(android.location.Location location) {

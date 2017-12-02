@@ -86,4 +86,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         i.putExtra("name",name);
         startActivity(i);
     }
+    void loc(View view)
+    {
+      Intent i =new Intent(getApplicationContext(),Location.class);
+      startActivity(i);
+    }
 }
