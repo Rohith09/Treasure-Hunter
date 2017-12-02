@@ -35,6 +35,7 @@
         </activity>
         <activity android:name=".Profile" />
         <activity android:name=".Fencing"></activity>
+        <activity android:name=".Monu"></activity>
     </application>
     <meta-data
         android:name="com.google.android.geo.AIzaSyBPeCGoAjwcK7UVNLrYckKcRlb01vRQ-Ew"

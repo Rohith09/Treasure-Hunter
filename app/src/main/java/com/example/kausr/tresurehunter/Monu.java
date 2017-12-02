@@ -1,5 +1,6 @@
 package com.example.kausr.tresurehunter;
 
+import android.content.Intent;
 import android.view.View;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -100,5 +101,11 @@ String message;
 
             }
         });
+    }
+
+    public void showmap(View view)
+    {
+        Intent i=new Intent(getApplicationContext(),Fencing.class);
+        startActivity(i);
     }
 }

@@ -207,6 +207,11 @@
         android:layout_height="wrap_content"
         android:text="Dashboard"
         android:onClick="toDashboard"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monuments"
+        android:onClick="Monument"/>
 
 </LinearLayout>
 </ScrollView>

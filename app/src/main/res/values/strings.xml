@@ -15,14 +15,11 @@
     <string name="back_to_normal">Back to normal</string>
     <string name="citypalace">City Palace, Udaipur is a palace complex situated in the city Udaipur, Rajasthan. It was build over
     a period of nearly 400 years, with contributions from several rulers of the Mewar Dynasty</string>
-    <string name="jag">City Palace, Udaipur is a palace complex situated in the city Udaipur, Rajasthan. It was build over
-    a period of nearly 400 years, with contributions from several rulers of the Mewar Dynasty</string>
-    <string name="fateh">City Palace, Udaipur is a palace complex situated in the city Udaipur, Rajasthan. It was build over
-    a period of nearly 400 years, with contributions from several rulers of the Mewar Dynasty</string>
-    <string name="lake">City Palace, Udaipur is a palace complex situated in the city Udaipur, Rajasthan. It was build over
-    a period of nearly 400 years, with contributions from several rulers of the Mewar Dynasty</string>
-    <string name="monsoon">City Palace, Udaipur is a palace complex situated in the city Udaipur, Rajasthan. It was build over
-    a period of nearly 400 years, with contributions from several rulers of the Mewar Dynasty</string>
+    <string name="jag">Jag Mandir is a palace built on an island in the Lake Pichola. It is also called the "Lake Garden Palace". The palace is located in Udaipur city in the Indian state of Rajasthan. Its construction is credited to three Maharanas of the Sisodia Rajputs of Mewar kingdom. The construction of the palace was started in 1551 by Maharana Amar Singh, continued by Maharana Karan Singh (1620–1628) and finally completed by Maharana Jagat Singh I (1628–1652).</string>
+    <string name="fateh">Fateh Sagar Lake is situated in the city of Udaipur in the Indian state of Rajasthan. It is an artificial lake named after Maharana Fateh Singh of Udaipur and Mewar, constructed north-west of Udaipur, to the north of Lake Pichola in the 1680s.
+        It is one of the four lakes of the Udaipur city; the other three being: the Lake Pichola (within the Udaipur town), Udai Sagar Lake, 13 kilometres (8.1 mi) to the east of Udaipur, and Dhebar Lake or Jaisamand Lake, 52 km (32 mi) south east of Udaipur.[1][2]</string>
+    <string name="lake">Lake Pichola, situated in Udaipur city in the Indian state of Rajasthan, is an artificial fresh water lake, created in the year 1362 AD, named after the nearby Picholi village.[1][2] It is one of the several contiguous lakes, and developed over the last few centuries in and around the famous Udaipur city. The lakes around Udaipur were primarily created by building dams to meet the drinking water and irrigation needs of the city and its neighborhood. Two islands, Jag Niwas and Jag Mandir are located within Pichola Lake, and have been developed with several palaces to provide views of the lake.</string>
+    <string name="monsoon">The Monsoon Palace, also known as the Sajjan Garh Palace, is a hilltop palatial residence in the city of Udaipur, Rajasthan in India, overlooking the Fateh Sagar Lake. It is named Sajjangarh after Maharana Sajjan Singh (1874–1884) of the Mewar Dynasty, who built it in 1884. The palace offers a panoramic view of the city's lakes, palaces and surrounding countryside. It was built chiefly to watch the monsoon clouds; hence, appropriately, it is popularly known as Monsoon Palace.</string>
     <string name="direction">Direction</string>
     <string name="history">Take Me There</string>
     <string name="title_activity_location">Map</string>
