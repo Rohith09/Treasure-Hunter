@@ -8,6 +8,14 @@
     android:background="@drawable/gradient"
     tools:context="com.example.kausr.tresurehunter.MainActivity">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"
+        android:onClick="loc"
+        android:text="Click me"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -56,21 +64,6 @@
         android:layout_above="@+id/textView2"
         android:layout_centerHorizontal="true">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:onClick="navigate">
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:text="Login"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                />
-        </RelativeLayout>
     </android.support.v7.widget.CardView>
 
     <TextView
@@ -126,14 +119,25 @@
             android:layout_marginLeft="15dp"
             android:layout_below="@id/signin"
             app:srcCompat="@drawable/facebook" />
-        <Button
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/cardView"
+        android:layout_centerHorizontal="true"
+        android:onClick="navigate">
+
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/location"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="40dp"
-            android:onClick="loc"/>
-    </LinearLayout>
+            android:layout_centerInParent="true"
+            android:text="Login"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
 
 
 </RelativeLayout>

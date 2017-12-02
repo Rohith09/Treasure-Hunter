@@ -1,4 +1,4 @@
-package com.example.kausr.tresurehunter;
+/*package com.example.kausr.tresurehunter;
 
 import android.app.IntentService;
 import android.app.Notification;
@@ -8,6 +8,8 @@ import android.app.TaskStackBuilder;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.NotificationCompat;
 import android.text.TextUtils;
 import android.util.Log;
@@ -18,10 +20,8 @@ import com.google.android.gms.location.GeofencingEvent;
 
 import java.util.ArrayList;
 import java.util.List;
+ Created by delaroy on 4/18/17.
 
-/**
- * Created by delaroy on 4/18/17.
- */
 public class GeofenceTransitionService extends IntentService {
 
     private static final String TAG = GeofenceTransitionService.class.getSimpleName();
@@ -72,7 +72,8 @@ public class GeofenceTransitionService extends IntentService {
         return status + TextUtils.join( ", ", triggeringGeofencesList);
     }
 
-    private void sendNotification( String msg ) {
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
+    private void sendNotification(String msg ) {
         Log.i(TAG, "sendNotification: " + msg );
 
         // Intent to start the main Activity
@@ -122,4 +123,4 @@ public class GeofenceTransitionService extends IntentService {
                 return "Unknown error.";
         }
     }
-}
+} */
