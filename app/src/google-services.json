@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "208666065083",
+    "firebase_url": "https://treasure-hunter-20411.firebaseio.com",
+    "project_id": "treasure-hunter-20411",
+    "storage_bucket": "treasure-hunter-20411.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208666065083:android:22baf4395c0fd01c",
+        "android_client_info": {
+          "package_name": "com.example.kausr.tresurehunter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208666065083-418rbmjlv4ir2h4mffd2t55u4oghr8dh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kausr.tresurehunter",
+            "certificate_hash": "777bfdff8c7e24da80f91e84db930e4cf3417dbd"
+          }
+        },
+        {
+          "client_id": "208666065083-5f777mhopcq4o20alvu65psi5c3ns4jb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbDMnKM3jIjYKBr9oOj-pdVFbSRhNgKHQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208666065083-5f777mhopcq4o20alvu65psi5c3ns4jb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
