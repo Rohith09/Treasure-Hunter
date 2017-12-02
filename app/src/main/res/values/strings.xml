@@ -15,7 +15,26 @@
     <string name="back_to_normal">Back to normal</string>
     <string name="citypalace">City Palace, Udaipur is a palace complex situated in the city Udaipur, Rajasthan. It was build over
     a period of nearly 400 years, with contributions from several rulers of the Mewar Dynasty</string>
+    <string name="jag">City Palace, Udaipur is a palace complex situated in the city Udaipur, Rajasthan. It was build over
+    a period of nearly 400 years, with contributions from several rulers of the Mewar Dynasty</string>
+    <string name="fateh">City Palace, Udaipur is a palace complex situated in the city Udaipur, Rajasthan. It was build over
+    a period of nearly 400 years, with contributions from several rulers of the Mewar Dynasty</string>
+    <string name="lake">City Palace, Udaipur is a palace complex situated in the city Udaipur, Rajasthan. It was build over
+    a period of nearly 400 years, with contributions from several rulers of the Mewar Dynasty</string>
+    <string name="monsoon">City Palace, Udaipur is a palace complex situated in the city Udaipur, Rajasthan. It was build over
+    a period of nearly 400 years, with contributions from several rulers of the Mewar Dynasty</string>
     <string name="direction">Direction</string>
-    <string name="history">Play History</string>
+    <string name="history">Take Me There</string>
     <string name="title_activity_location">Map</string>
+    <string name="Monuments">Monuments</string>
+    <string-array name="Monument_Arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
 </resources>
