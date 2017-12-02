@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Tresure Hunter</string>
+    <string name="citypalace">City Palace, Udaipur is a palace complex situated in the city Udaipur, Rajasthan. It was build over
+    a period of nearly 400 years, with contributions from several rulers of the Mewar Dynasty</string>
+    <string name="direction">Direction</string>
+    <string name="history">Play History</string>
 </resources>
